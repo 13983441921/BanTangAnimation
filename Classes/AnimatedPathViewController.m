@@ -93,7 +93,7 @@
     NSDictionary *attrs = [NSDictionary dictionaryWithObjectsAndKeys:
                            (id)font, kCTFontAttributeName,
                            nil];
-    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:@"Great humiliation shapes Legend"
+    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:@"Great pain shapes Legend"
                                                                      attributes:attrs];
     CTLineRef line = CTLineCreateWithAttributedString((CFAttributedStringRef)attrString);
 	CFArrayRef runArray = CTLineGetGlyphRuns(line);
